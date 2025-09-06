@@ -5,6 +5,7 @@ import { Content } from "../pages/Content.jsx"
 import { Alphabet } from "../pages/Alphabet.jsx"
 import { Contact } from "../pages/Contact.jsx"
 import { Reference } from "../pages/Reference.jsx"
+import { Ecommerce } from "../pages/Ecommerce.jsx"
 
 export function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export function AppRoutes() {
           <Route path="/Alphabet" element={<Alphabet />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/reference" element={<Reference />}></Route>
+          <Route path="/Ecommerce" element={<Ecommerce />}></Route>
         </Route>
       </Routes>
   )

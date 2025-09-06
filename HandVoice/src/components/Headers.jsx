@@ -80,7 +80,7 @@ export function Headers() {
                 ): (
                     <div className="h-11 bg-lightsblue flex items-center justify-center">
                         <div className="flex justify-between w-full max-w-[902px]">
-                            <a href="" className="font-bold text-sm text-whiteproject cursor-pointer">E-Commerce</a>
+                            <a href="/Ecommerce" className="font-bold text-sm text-whiteproject cursor-pointer">E-Commerce</a>
                             <a href="" className="font-bold text-sm text-whiteproject cursor-pointer">Jogo</a>
                             <a href="/Content" className="font-bold text-sm text-whiteproject cursor-pointer">Conteúdo</a>
                             <a href="/Alphabet" className="font-bold text-sm text-whiteproject cursor-pointer">Alfabéto</a>
@@ -102,7 +102,7 @@ export function Headers() {
                             <img className="w-10 h-10" src={LogoHandVoice} alt="Logo" />
                             <button onClick={menu} className="text-red-600 text-3xl font-bold">✕</button>
                         </div>
-                        <a className="bg-darkblue text-white rounded p-2 font-semibold" href="#">E-commerce</a>
+                        <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Ecommerce">E-commerce</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="#">Jogo</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Content">Conteúdo</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Alphabet">Alfabeto</a>
