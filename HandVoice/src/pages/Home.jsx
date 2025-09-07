@@ -14,7 +14,6 @@ export function Home() {
             <CardSelling/>
             <h3 className="text-lg p-3 text-darksblue font-bold dark:text-white">O que falam sobre Nós</h3>
             <FeedBack/>
-            <CharactersCards/>
         </div>
     )
 }

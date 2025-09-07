@@ -36,7 +36,7 @@ export function ParagraphContent() {
                     <p className="text-darksblue text-base font-bold mb-2 ml-2">Faça dowload do nosso app</p>
                     <div className="flex justify-between ml-2 mr-2">
                     <a href="#" className=" flex justify-around mb-4 w-64 h-auto p-2 text-center bg-lightsblue text-white rounded-[10px] font-bold">HandVoice Assistent <img src={DownloadButton} alt="" /></a>
-                    <a href="#" className="mb-4 w-64 h-auto p-2 text-center bg-lightsblue text-white rounded-[10px] font-bold">Avançar</a>
+                    <a href="./Ecommerce" className="mb-4 w-64 h-auto p-2 text-center bg-lightsblue text-white rounded-[10px] font-bold">Avançar</a>
                     </div>
                 </div>
         )}

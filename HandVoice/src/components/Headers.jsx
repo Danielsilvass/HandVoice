@@ -58,16 +58,16 @@ export function Headers() {
                                 </div>
                                 <img src={LinhaCian} alt="Linha Ciano" />
                                 <div className="flex items-center">
-                                    <a href=""><img src={Rastreio} alt="Logo de Rastreio" /></a>
+                                    <a className="flex" href="https://www.correios.com.br/" target="_blank"><img src={Rastreio} alt="Logo de Rastreio" />
                                     <div>
                                     <p className="text-xs text-lightsblue font-bold leading-tight mr-2 cursor-pointer">Localize o seu produto</p>
                                     <p className="font-bold text-whiteproject leading-tight cursor-pointer">Rastrear pedido</p>
-                                    </div>
+                                    </div></a>
                                 </div>
                                 <img src={LinhaCian} alt="Linha Ciano" />
                                 <div className="flex items-center">
-                                    <a href=""><img src={CarrinhodeCompra} alt="Carinho de Compra"/></a>
-                                    <p className="font-bold text-whiteproject ml-2 cursor-pointer">Carrinho</p>
+                                    <a  className="flex" href="https://produto.mercadolivre.com.br/MLB-5499060124-carrinho-de-supermercado-compras-180-litros-_JM?matt_tool=40300352&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354013&matt_ad_group_id=173090509916&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882725996&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5525783528&matt_product_id=MLB5499060124&matt_product_partition_id=2389721279223&matt_target_id=pla-2389721279223&cq_src=google_ads&cq_cmp=22090354013&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090354013&gbraid=0AAAAAD93qcDl3WtYs-OYR0JfpglFYhdOH&gclid=CjwKCAjw2vTFBhAuEiwAFaScwhD6S_vbUwxFRYv18kWbrfTmz9vLcRq8GMGIQ0Niw9pSgeNm5wYIhhoC-Z8QAvD_BwE" target="_blank"><img src={CarrinhodeCompra} alt="Carinho de Compra"/>
+                                    <p className="font-bold text-whiteproject ml-2 cursor-pointer">Carrinho</p> </a>
                                 </div>
                             </div>
                         
@@ -81,9 +81,9 @@ export function Headers() {
                     <div className="h-11 bg-lightsblue flex items-center justify-center">
                         <div className="flex justify-between w-full max-w-[902px]">
                             <a href="/Ecommerce" className="font-bold text-sm text-whiteproject cursor-pointer">E-Commerce</a>
-                            <a href="" className="font-bold text-sm text-whiteproject cursor-pointer">Jogo</a>
+                            <a href="/Game" className="font-bold text-sm text-whiteproject cursor-pointer">Jogo</a>
                             <a href="/Content" className="font-bold text-sm text-whiteproject cursor-pointer">Conteúdo</a>
-                            <a href="/Alphabet" className="font-bold text-sm text-whiteproject cursor-pointer">Alfabéto</a>
+                            <a href="/Alphabet" className="font-bold text-sm text-whiteproject cursor-pointer">Alfabeto</a>
                             <a href="/Contact" className="font-bold text-sm text-whiteproject cursor-pointer">Entrar em Contato</a>
                             <a href="/reference" className="font-bold text-sm text-whiteproject cursor-pointer">Referências</a>
                         </div>
@@ -102,8 +102,9 @@ export function Headers() {
                             <img className="w-10 h-10" src={LogoHandVoice} alt="Logo" />
                             <button onClick={menu} className="text-red-600 text-3xl font-bold">✕</button>
                         </div>
+                        <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/">Home</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Ecommerce">E-commerce</a>
-                        <a className="bg-darkblue text-white rounded p-2 font-semibold" href="#">Jogo</a>
+                        <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Game">Jogo</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Content">Conteúdo</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Alphabet">Alfabeto</a>
                         <a className="bg-darkblue text-white rounded p-2 font-semibold" href="/Contact">Entre em contato</a>

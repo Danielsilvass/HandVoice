@@ -6,6 +6,7 @@ import { Alphabet } from "../pages/Alphabet.jsx"
 import { Contact } from "../pages/Contact.jsx"
 import { Reference } from "../pages/Reference.jsx"
 import { Ecommerce } from "../pages/Ecommerce.jsx"
+import { Game } from "../pages/Game.jsx"
 
 export function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ export function AppRoutes() {
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/reference" element={<Reference />}></Route>
           <Route path="/Ecommerce" element={<Ecommerce />}></Route>
+          <Route path="/Game" element={<Game />}></Route>
         </Route>
       </Routes>
   )
