@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+i{ pkgs, ... }: {
   # Let Nix know about your project's dependencies
   packages = [
     pkgs.nodejs_20
