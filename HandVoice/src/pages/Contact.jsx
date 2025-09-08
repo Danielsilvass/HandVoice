@@ -4,7 +4,7 @@ import { useIsMobile } from "../hooks/useIsMobile"
 export function Contact() {
     const isMobile = useIsMobile()
     return (
-        <div className="dark:bg-indigo-950">
+        <div className="dark:bg-darksblue">
         {isMobile ? (
             <div className="flex flex-col">
                 <div className="text-2xl text-center flex flex-col gap-4 m-6">

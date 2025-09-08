@@ -12,7 +12,7 @@ export function ContactCard() {
     const contact = isMobile ? [
         <div className="flex justify-center items-center">
                 <div>
-                    <div class="w-50 bg-slate-900">
+                    <div class="w-50 bg-indigo-950">
                     <p class="justify-start text-white text-xl font-semibold text-center">Victor Gaspary</p>
                     <p class="text-cyan-500 text-base font-bold text-center">Designer Jogo/Site</p>
                     </div>
@@ -26,7 +26,7 @@ export function ContactCard() {
             </div>,
             <div className="flex justify-center items-center">
                 <div>
-                    <div class="w-50 bg-slate-900">
+                    <div class="w-50 bg-indigo-950">
                     <p class="justify-start text-white text-xl font-semibold text-center">Pablo Almeida</p>
                     <p class="text-cyan-500 text-base font-bold text-center">Desenvolv. Jogo</p>
                     </div>
@@ -40,7 +40,7 @@ export function ContactCard() {
             </div>,
             <div className="flex justify-center items-center">
                 <div>
-                    <div class="w-50 bg-slate-900">
+                    <div class="w-50 bg-indigo-950">
                     <p class="justify-start text-white text-xl font-semibold text-center">Murilo Kadri</p>
                     <p class="text-cyan-500 text-base font-bold text-center">Desenvolv. Robo</p>
                     </div>
@@ -54,7 +54,7 @@ export function ContactCard() {
             </div>,
             <div className="flex justify-center items-center">
                 <div>
-                    <div class="w-50 bg-slate-900">
+                    <div class="w-50 bg-indigo-950">
                     <p class="justify-start text-white text-xl font-semibold text-center">Daniel Santos</p>
                     <p class="text-cyan-500 text-base font-bold text-center">Desenvolv. Site</p>
                     </div>
