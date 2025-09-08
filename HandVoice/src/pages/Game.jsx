@@ -10,7 +10,7 @@ import { useIsMobile } from "../hooks/useIsMobile.jsx"
 export function Game() {
     const isMobile = useIsMobile()
     return (
-        <div className={isMobile ? ("bg-[url('../../public/BackgroundGame.png')] "): ("bg-[url('../../public/BackgroundGame.png')]")}>
+        <div className={isMobile ? ("bg-[url('/BackgroundGame.png')]"): ("bg-[url('/BackgroundGame.png')] bg-cover bg-center bg-no-repeat")}>
             <div className={isMobile ? ("flex flex-col-reverse") : ("flex")}>
                 <img className={isMobile ? ("h-30 w-auto") : ("h-60 w-auto")} src={Infection} alt="" />
                 <img className="h-60 w-auto" src={InfectionLogo} alt="" />
