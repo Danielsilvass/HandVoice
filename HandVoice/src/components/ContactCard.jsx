@@ -1,4 +1,5 @@
 import MotoMoto from "../../public/MotoMoto.jpeg"
+import Daniel from "../../public/Daniel.jpeg"
 import Victor from "../../public/Victor.jpeg"
 import Kadri from "../../public/Kadri.jpg"
 import Linkedin from "../../public/Linkedin.png"
@@ -58,7 +59,7 @@ export function ContactCard() {
                     <p class="justify-start text-white text-xl font-semibold text-center">Daniel Santos</p>
                     <p class="text-cyan-500 text-base font-bold text-center">Desenvolv. Site</p>
                     </div>
-                    <img src={MotoMoto} className="w-50 h-50 rounded-b-2xl" alt="" />
+                    <img src={Daniel} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
                     <a href="#"><img src={Linkedin} alt="" /></a>
@@ -124,7 +125,7 @@ export function ContactCard() {
                     <p class="justify-start text-white text-xl font-semibold text-center">Daniel Santos</p>
                     <p class="text-cyan-500 text-base font-bold text-center">Desenvolv. Site</p>
                     </div>
-                    <img src={MotoMoto} className="w-50 h-50 rounded-b-2xl" alt="" />
+                    <img src={Daniel} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
                     <a href="#"><img src={Linkedin} alt="" /></a>
