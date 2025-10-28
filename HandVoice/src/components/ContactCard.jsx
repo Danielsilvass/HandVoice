@@ -1,5 +1,5 @@
 import MotoMoto from "../../public/MotoMoto.jpeg"
-import Daniel from "../../public/Daniel.jpeg"
+import Daniel from "../../public/Daniel.jpg"
 import Victor from "../../public/Victor.jpeg"
 import Kadri from "../../public/Kadri.jpg"
 import Linkedin from "../../public/Linkedin.png"
