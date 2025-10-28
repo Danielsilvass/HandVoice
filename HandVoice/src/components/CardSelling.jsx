@@ -8,7 +8,7 @@ import { Slider } from "../hooks/Slider"
 export function CardSelling() {
     const isMobile = useIsMobile()
     const Selling = isMobile ? [
-        <div className="bg-white rounded-xl shadow-md p-4 w-full max-w-[250px] flex flex-col items-center text-center justify-center">
+        <div className="bg-white rounded-xl shadow-md p-4 mx-auto max-w-[250px] flex flex-col items-center text-center justify-center">
             <img
                 src={Luvas}
                 alt="Nome do Produto"
@@ -35,7 +35,7 @@ export function CardSelling() {
                 ou 12x de <span className="font-bold text-gray-700 ml-1">R$ 158</span>
             </div>
         </div>,
-        <div className="bg-white rounded-xl shadow-md p-4 w-full max-w-[250px] flex flex-col items-center text-center justify-center">
+        <div className="bg-white rounded-xl shadow-md p-4 mx-auto max-w-[250px] flex flex-col items-center text-center justify-center">
             <img
                 src={ESP32}
                 alt="Nome do Produto"
@@ -62,7 +62,7 @@ export function CardSelling() {
                 ou 12x de <span className="font-bold text-gray-700 ml-1">R$ 3,20</span>
             </div>
         </div>,
-        <div className="bg-white rounded-xl shadow-md p-4 w-full max-w-[250px] flex flex-col items-center text-center justify-center">
+        <div className="bg-white rounded-xl shadow-md p-4 mx-auto max-w-[250px] flex flex-col items-center text-center justify-center">
             <img
                 src={MPU}
                 alt="Nome do Produto"
@@ -89,7 +89,7 @@ export function CardSelling() {
                 ou 12x de <span className="font-bold text-gray-700 ml-1">R$ 5,90</span>
             </div>
         </div>,
-        <div className="bg-white rounded-xl shadow-md p-4 w-full max-w-[250px] flex flex-col items-center text-center justify-center">
+        <div className="bg-white rounded-xl shadow-md p-4 mx-auto max-w-[250px] flex flex-col items-center text-center justify-center">
             <img
                 src={Altofalante}
                 alt="Nome do Produto"
@@ -231,6 +231,6 @@ export function CardSelling() {
     ]
 
     return (
-        <Slider elementos={Selling} intervalo={1000} />
+        <Slider elementos={Selling} intervalo={2000} />
     )
 }
