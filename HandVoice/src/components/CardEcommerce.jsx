@@ -51,8 +51,6 @@ export function CardEcommerce() {
                         <h1 className="text-neutral text-xl">Produtos que ultilizamos para contruir a luva - HAND VOICE </h1>
                     </div>
 
-                    <CardSelling/>
-
                     <h3 className="text-lg p-3 text-darksblue font-bold dark:text-white">O que falam sobre Nós:</h3>
                 </div>
             ): (
@@ -97,15 +95,6 @@ export function CardEcommerce() {
                                 <strong>Como Funciona?</strong> <br />
                                 A luva possui sensores que detectam os movimentos das mãos e dedos enquanto o usuário sinaliza em Libras. Esses dados são enviados a um processador que interpreta os gestos e os transforma em áudio em tempo real. <br />O áudio é reproduzido por um dispositivo na cintura do usuário, permitindo uma comunicação clara com ouvintes, mesmo sem a presença de intérpretes. Tudo isso acontece de forma automática, ágil e eficiente.
                             </p>
-                        </div>
-                        <div>
-                            <div className="m-4 p-5 shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] bg-white w-[495px] text-center">
-                                <h1 className="text-neutral text-xl">Produtos que ultilizamos para <br /> contruir a luva - HAND VOICE </h1>
-                            </div>
-                            <div className="flex">
-                                <CardSelling/>
-                                <CardSelling/>
-                            </div>
                         </div>
                     </div>
 
