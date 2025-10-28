@@ -1,4 +1,5 @@
-import ComponetSemImg from "../../public/ComponetSemImg.png"
+import ComponetImg1 from "../../public/ComponetImg1.png"
+import ComponetImg2 from "../../public/ComponetImg2.png"
 import DownloadButton from "../../public/DownloadButton.png"
 import { useIsMobile } from "../hooks/useIsMobile";
 
@@ -9,9 +10,9 @@ export function ParagraphContent() {
             {isMobile ? (
                 <div className="flex justify-center items-center flex-col">
                     <h1 className="text-4xl font-normal text-darksblue dark:text-white text-center mb-4">Diga olá para HandVoice</h1>
-                    <img className="w-80 h-auto" src={ComponetSemImg} alt="" />
+                    <img className="w-80 h-auto" src={ComponetImg1} alt="" />
                     <p className="w-72 text-darksblue dark:text-white mb-4"><strong>Por que a nossa luva tradutora de Libras é única?</strong> <br/> Nossa tecnologia inovadora permite a tradução em tempo real dos gestos em Libras para áudio, tornando a comunicação mais acessível para todos. <br/> Com um design ergonômico e processamento rápido, nossa luva facilita a inclusão e conecta pessoas de forma simples e eficaz. Desenvolvida para trazer autonomia à comunidade surda, ela é uma ponte entre o silêncio e a voz.</p>
-                    <img className="w-80 h-auto" src={ComponetSemImg} alt="" />
+                    <img className="w-80 h-auto" src={ComponetImg2} alt="" />
                     <p className="w-72 text-darksblue dark:text-white mb-4">
                             <strong>Como funciona?</strong> <br/> A luva possui sensores que detectam os movimentos das mãos e dedos enquanto o usuário sinaliza em Libras. Esses dados são enviados a um processador que interpreta os gestos e os transforma em áudio em tempo real. <br/> O áudio é reproduzido por um dispositivo na cintura do usuário, permitindo uma comunicação clara com ouvintes, mesmo sem a presença de intérpretes. Tudo isso acontece de forma automática, ágil e eficiente.
                     </p>
@@ -25,10 +26,10 @@ export function ParagraphContent() {
                             <h1 className="text-darksblue dark:text-white text-7xl font-normal mb-4">Diga olá para HandVoice</h1>
                             <p className="text-xl text-darksblue dark:text-white"><strong>Por que a nossa luva tradutora de Libras é única?</strong> <br/> Nossa tecnologia inovadora permite a tradução em tempo real dos gestos em Libras para áudio, tornando a comunicação mais acessível para todos. <br/>Com um design ergonômico e processamento rápido, nossa luva facilita a inclusão e conecta pessoas de forma simples e eficaz. Desenvolvida para trazer autonomia à comunidade surda, ela é uma ponte entre o silêncio e a voz.</p>
                         </div>
-                        <img src={ComponetSemImg} alt="" className="w-96 h-auto" />
+                        <img src={ComponetImg1} alt="" className="w-96 h-auto" />
                     </div>
                     <div className="flex justify-center items-center">
-                        <img src={ComponetSemImg} alt="" className="w-96 h-auto"/>
+                        <img src={ComponetImg2} alt="" className="w-96 h-auto"/>
                         <div className="w-[569px]">
                             <p className="text-xl text-darksblue dark:text-white"><strong>Como funciona?</strong> <br/> A luva possui sensores que detectam os movimentos das mãos e dedos enquanto o usuário sinaliza em Libras. Esses dados são enviados a um processador que interpreta os gestos e os transforma em áudio em tempo real.<br/> O áudio é reproduzido por um dispositivo na cintura do usuário, permitindo uma comunicação clara com ouvintes, mesmo sem a presença de intérpretes. Tudo isso acontece de forma automática, ágil e eficiente.</p>
                         </div>
