@@ -1,4 +1,4 @@
-import EcommerceImageHand from "../../public/EcommerceImageHand.png"
+import EcommerceImageHand from "../../public/EcommerceImageHand.jpeg"
 import PayIcon from "../../public/PayIcon.png"
 import PixIcon from "../../public/PixIcon.png"
 import { useIsMobile} from "../hooks/useIsMobile.jsx"
