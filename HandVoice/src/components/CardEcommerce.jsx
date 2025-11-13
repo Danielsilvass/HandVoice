@@ -11,7 +11,7 @@ export function CardEcommerce() {
         <div className="dark:bg-darksblue">
             {isMobile ? (
                 <div className="flex justify-center items-center flex-col bg-neutral-50 dark:bg-darksblue">
-                    <img className="dark:bg-transparent dark:shadow-none m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] w-[145px] h-[50px] rounded-[10px]" src={EcommerceImageHand} alt="" />
+                    <img className="dark:bg-transparent dark:shadow-none m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] w-20 h-15 rounded-[10px]" src={EcommerceImageHand} alt="" />
                     <div className="dark:bg-transparent dark:shadow-none p-5 shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] bg-white">
                         <h1 className="text-3xl mb-3 dark:text-white">HandVoice - <br /> Interpretador de Libras</h1>
                         <div className="flex space-x-1 mb-3">
