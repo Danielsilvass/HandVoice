@@ -20,7 +20,7 @@ export function Game() {
                 <img src={PcIcon} alt="" />
                 <p>PC</p>
             </div>
-            <img className="h-30 w-auto ml-4" src={PlayInfection} alt="" />
+            <a href="https://gd.games/pablo_almeida/hand-voice-"><img className="h-30 w-auto ml-4" src={PlayInfection} alt="" /></a>
             <CharactersCards />
         </div>
     )

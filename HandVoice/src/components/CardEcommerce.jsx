@@ -1,4 +1,4 @@
-import EcommerceImageHand from "../../public/EcommerceImageHand.jpeg"
+import EcommerceImagReeHand from "../../public/EcommerceImageHand.jpeg"
 import PayIcon from "../../public/PayIcon.png"
 import PixIcon from "../../public/PixIcon.png"
 import { useIsMobile} from "../hooks/useIsMobile.jsx"
@@ -11,7 +11,7 @@ export function CardEcommerce() {
         <div className="dark:bg-darksblue">
             {isMobile ? (
                 <div className="flex justify-center items-center flex-col bg-neutral-50 dark:bg-darksblue">
-                    <img className="dark:bg-transparent dark:shadow-none m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] w-20 h-15 rounded-[10px] flex" src={EcommerceImageHand} alt="" />
+                    <img className="dark:bg-transparent dark:shadow-none m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px]" src={EcommerceImageHand} alt="" />
                     <div className="dark:bg-transparent dark:shadow-none p-5 shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] bg-white">
                         <h1 className="text-3xl mb-3 dark:text-white">HandVoice - <br /> Interpretador de Libras</h1>
                         <div className="flex space-x-1 mb-3">
@@ -56,7 +56,7 @@ export function CardEcommerce() {
             ): (
                 <div className="bg-neutral-50 dark:bg-darksblue">
                     <div className="flex items-center justify-around max-w[1000px]">
-                        <img className="m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px]" src={EcommerceImageHand} alt="" />
+                        <img className="m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] w-20 h-15" src={EcommerceImageHand} alt="" />
                         <div className="p-5 shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] bg-white flex flex-col justify-center">
                         <h1 className="text-3xl mb-3">HandVoice - <br /> Interpretador de Libras</h1>
                         <div className="flex space-x-1 mb-3">
