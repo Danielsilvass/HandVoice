@@ -54,8 +54,8 @@ export function CardEcommerce() {
                     <h3 className="text-lg p-3 text-darksblue font-bold dark:text-white">O que falam sobre Nós:</h3>
                 </div>
             ): (
-                <div className="flex flex-col items-center justify-center bg-neutral-50 dark:bg-darksblue max-w-[1400px]">
-                    <div className="flex items-center justify-around">
+                <div className="flex flex-col items-center justify-center bg-neutral-50 dark:bg-darksblue">
+                    <div className="flex items-center justify-around max-w-[1400px]">
                         <img className="m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] w-[700px] h-[650px]" src={EcommerceImageHand} alt="" />
                         <div className="p-5 shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] bg-white flex flex-col justify-center">
                         <h1 className="text-3xl mb-3">HandVoice - <br /> Interpretador de Libras</h1>
