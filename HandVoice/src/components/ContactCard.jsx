@@ -20,7 +20,7 @@ export function ContactCard() {
                     <img src={Victor} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/victor-gaspary-de-aquino-bb3431333/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/victor-gaspary-de-aquino-bb3431333/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -34,7 +34,7 @@ export function ContactCard() {
                     <img src={MotoMoto} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/pablo-almeida003/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/pablo-almeida003/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -48,7 +48,7 @@ export function ContactCard() {
                     <img src={Kadri} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/murilokadri123/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/murilokadri123/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -62,7 +62,7 @@ export function ContactCard() {
                     <img src={Daniel} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/daniel-santos-da-silva-32655a323/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/daniel-santos-da-silva-32655a323/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -86,7 +86,7 @@ export function ContactCard() {
                     <img src={Victor} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/victor-gaspary-de-aquino-bb3431333/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/victor-gaspary-de-aquino-bb3431333/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -100,7 +100,7 @@ export function ContactCard() {
                     <img src={MotoMoto} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/pablo-almeida003/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/pablo-almeida003/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -114,7 +114,7 @@ export function ContactCard() {
                     <img src={Kadri} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/murilokadri123/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/murilokadri123/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
@@ -128,7 +128,7 @@ export function ContactCard() {
                     <img src={Daniel} className="w-50 h-50 rounded-b-2xl" alt="" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <a href="https://www.linkedin.com/in/daniel-santos-da-silva-32655a323/"><img src={Linkedin} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/daniel-santos-da-silva-32655a323/" target="_blank"><img src={Linkedin} alt="" /></a>
                     <a href="#"><img src={GitHub} alt="" /></a>
                     <a href="#"><img src={InstagramContact} alt="" /></a>
                 </div>
