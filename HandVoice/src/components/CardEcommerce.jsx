@@ -56,7 +56,7 @@ export function CardEcommerce() {
             ): (
                 <div className="bg-neutral-50 dark:bg-darksblue">
                     <div className="flex items-center justify-around max-w[1000px]">
-                        <img className="m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] w-20 h-15" src={EcommerceImageHand} alt="" />
+                        <img className="m-3 bg-white p-5  shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] w-80 h-75" src={EcommerceImageHand} alt="" />
                         <div className="p-5 shadow-[4px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] bg-white flex flex-col justify-center">
                         <h1 className="text-3xl mb-3">HandVoice - <br /> Interpretador de Libras</h1>
                         <div className="flex space-x-1 mb-3">
